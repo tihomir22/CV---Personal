@@ -1,4 +1,7 @@
 #sideNav {
+  background-image: 
+  /* top, transparent red */ linear-gradient(rgba($primary, 0.45), rgba($primary, 0.45)),
+    /* your image */ url("../img/wallpaper.jpg");
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
     letter-spacing: 0.05rem;

@@ -102,6 +102,10 @@ strong {
   color: #7B1FA2;
 }
 
+#sideNav {
+  background-image: linear-gradient(rgba(123, 31, 162, 0.45), rgba(123, 31, 162, 0.45)), url("../img/wallpaper.jpg");
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
