@@ -3,7 +3,8 @@ section.resume-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+    }
     .resume-date {
       min-width: none;
     }
@@ -16,6 +17,15 @@ section.resume-section {
       .resume-date {
         min-width: 18rem;
       }
+    }
+    .badgerLogo {
+      max-height: 256px;
+      max-width: 256px;
+    }
+    .mostrarHoverTarjetaBadger {
+      visibility: visible;
+      opacity: 1;
+      transition: visibility 0.5s, opacity 0.5s linear;
     }
   }
 }

@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet" />
@@ -56,6 +57,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Intereses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Premios</a>
@@ -109,7 +113,7 @@
                 <img
                   src="https://zenprospect-production.s3.amazonaws.com/uploads/pictures/5c299493a3ae61d86484b85c/picture"
                   alt=""
-                  style="max-width: 32px;max-height: 32px;"
+                  style="max-width: 32px; max-height: 32px;"
                 />
               </div>
               <p>
@@ -131,7 +135,7 @@
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/ITV_logo.svg/1200px-ITV_logo.svg.png"
                   alt=""
-                  style="max-width: 32px;max-height: 32px;"
+                  style="max-width: 32px; max-height: 32px;"
                 />
               </div>
               <p>
@@ -149,7 +153,7 @@
       <hr class="m-0" />
 
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-        <div class="w-100 ">
+        <div class="w-100">
           <h2 class="mb-5">Educación</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -264,6 +268,9 @@
             <div class="list-inline-item">
               <i class="devicon-heroku-original"></i>
             </div>
+            <div class="list-inline-item">
+              <i class="devicon-docker-plain"></i>
+            </div>
           </ul>
 
           <div class="subheading mb-3">Workflow</div>
@@ -321,6 +328,77 @@
 
       <hr class="m-0" />
 
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+        <div class="w-100">
+          <h2 class="mb-5">Proyectos</h2>
+          <div class="row rowPadre">
+            <div class="col-md-3 col-sm-12 hoverTarjetaBadger">
+              <div class="card view overlay">
+                <img class="card-img-top img-fluid badgerLogo" src="img/thehawk&thebadger.png" alt="The Hawk & The Badger Logo" />
+                <div class="mask flex-center rgba-red-strong">
+                  <p class="white-text">The Hawk & The Badger</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 col-sm-12 mostrarHoverTarjetaBadger">
+              <div class="list-group-flush">
+                <div class="list-group-item">
+                  <div class="d-flex">
+                    <div>
+                      <img src="img/cryptoboss.png" class="icon-img" />
+                    </div>
+                    <div >
+                      <p class="mb-0">CryptoBoss</p>
+                      <p class="mb-0">
+                        <span class="badge badge-dark"><i class="fas fa-money-bill-wave"></i> Finanzas</span>
+                        <span class="badge badge-info"><i class="fas fa-chart-bar"></i> Portfolio Tracker</span>
+                        <span class="badge badge-success"><i class="fas fa-check"></i> Terminado</span>
+                      </p>
+                    </div>
+                  </div>
+                  CryptoBoss se define como un "Potente sistema de gráficos y análisis de datos, todo en su bolsillo.", ni más ni menos, es
+                  una herramienta simple pero completa que aportará al usuario información rapida y detallada sobre los movimientos de sus
+                  criptomonedas favoritas. <strong>Desarollado en NodeJs Native</strong>
+                  <br />
+
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.hawkbadger.cryptoboss&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                    ><img
+                      alt="Disponible en Google Play"
+                      class="googleChip"
+                      src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png"
+                  /></a>
+                </div>
+                <div class="list-group-item">
+                  <div class="d-flex">
+                    <div >
+                     <img src="img/thepumper.jpg" class="icon-img" />
+                    </div>
+                    <div >
+                      <p class="mb-0">
+                        <p class="mb-0">ThePumper</p>
+                        <span class="badge badge-dark"><i class="fas fa-money-bill-wave"></i> Finanzas</span>
+                        <span class="badge badge-info"><i class="fas fa-robot"></i> Trading bot</span>
+                        <span class="badge badge-secondary"><i class="fas fa-check"></i> En progreso</span>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                  ThePumper conecta al usuario con un mundo de posibilidades con el fin de hacer crecer sus inversiones. Creación de
+                  estrategias totalmente personalizadas basadas simplemente en el precio, o en indicadores. La app dispone de más de 50
+                  indicadores tecnicos configurables y con los cuales generar nuestras estrategias personalizadas para el bot.</p>
+                  <p>Su simpleza,
+                    rapidez y compatibilidad con multitud de exchanges de criptomonedas lo hacen el fiel compañero a la libertad financiera.</p>
+                   <strong>Siendo desarrollado en Angular + Ionic + NodeJs + NestJs</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
         <div class="w-100">
           <h2 class="mb-5">Premios y Certificaciones</h2>
@@ -343,5 +421,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
   </body>
 </html>
